@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Botón Ambermex</string>
+    <string name="geofence_key">c84639389add7c763caf0e51999bd6e28c345d991ad1571b47dfda18c9111834</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string name="default_channel_name">Notificaciones</string>
+    <string name="channel_name">Alertas de Emergencia</string>
+    <string name="channel_description">Usada cuando una alerta de emergencia es detonada.</string>
+    <string name="channel_name_2">Alerta Medica</string>
+    <string name="channel_description_2">Usada cuando una alerta medica es detonada.</string>
+</resources>

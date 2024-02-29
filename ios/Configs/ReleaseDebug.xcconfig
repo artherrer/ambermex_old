@@ -1,0 +1,31 @@
+//
+//  ReleaseDebug.xcconfig
+//  AlertaMXApp
+//
+//  Created by Rene Marquez on 6/24/20.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-AlertaMXApp/Pods-AlertaMXApp.releasedebug.xcconfig"
+
+// Development.xcconfig
+// Server URL
+ROOT_URL = http:/$()/alertamxv2prodcentralus.azurewebsites.net
+XMPP_URL = service1.xmpp.alertamx.net:7443
+DOMAIN = alertamx.net
+CONFERENCE = conference.alertamx.net
+
+// App Settings
+APP_NAME = Botón Ambermex
+APP_BUNDLE_ID = com.botonambermex.app
+GROUP_NAME = group.botonambermex
+UPLOAD_URL = https:/$()/api.cloudinary.com/v1_1/ambermex
+FILE_PRESET = qsl9mgxs
+PICTURE_PRESET = rtakadgy
+VIDEO_PRESET = ss65e0iu
+THUMBNAIL_PRESET = n5uwl3pg
+ONE_SIGNAL_ID = 392cd87d-017d-4303-81e7-1882b7117477
+IS_PROD = true
+APPCENTER_ID = e62675f4-0904-4cf8-814c-e9de350e3dfe

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "619797939207",
+    "project_id": "boton-ambermex",
+    "storage_bucket": "boton-ambermex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619797939207:android:e700f53d6f986aafda56a2",
+        "android_client_info": {
+          "package_name": "com.botonambermex.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619797939207-o8kmpmmcc41neugk52lqavm4i0jbntdf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.botonambermex.app",
+            "certificate_hash": "5f7dd94da727d5d8903e6fd15c4509a076f44b64"
+          }
+        },
+        {
+          "client_id": "619797939207-jv7pm4d5johqskrmn42pj26h4g9iktec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFzMGSTQsXUbZvsgMW6fWAu0bA7n1CagU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619797939207-jv7pm4d5johqskrmn42pj26h4g9iktec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

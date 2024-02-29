@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Appcenter_id</key>
+	<string>$(APPCENTER_ID)</string>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>$(APP_NAME)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(APP_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>CONFERENCE</key>
+	<string>$(CONFERENCE)</string>
+	<key>DOMAIN</key>
+	<string>$(DOMAIN)</string>
+	<key>File_preset</key>
+	<string>$(FILE_PRESET)</string>
+	<key>Group_name</key>
+	<string>$(GROUP_NAME)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>IsProd</key>
+	<string>$(IS_PROD)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>New Exception Domain</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Acceso a tu cámara. Para tomar fotos y videos y compartirlos en algun canal en la aplicación.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Acceso a tu lista de contactos, para que puedas invitarlos a un grupo o conversación.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Acceso a tu ubicación. Esta información se usara para determinar si te encuentras en área de cobertura y para compartirla en caso de detonar una alerta.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Acceso a tu ubicación. Esta información se usara para determinar si te encuentras en área de cobertura y para compartirla en caso de detonar una alerta.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Acceso a tu ubicación. Esta información se usara para determinar si te encuentras en área de cobertura y para compartirla en caso de detonar una alerta.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Acceso a tu microfono. Permiso que la cámara necesita para funcionar correctamente y grabar el audio al usar la función de "Tomar Video".</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Acceso para detectar movimiento. Usado para actualizar tu posición geográfica y determinar si entraste o saliste de área de cobertura.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Acceso a galería. Para que puedas compartir contenido como fotos y videos en la aplicación, asi como actualizar tu foto de perfil, etc.</string>
+	<key>OneSignalAppId</key>
+	<string>$(ONE_SIGNAL_ID)</string>
+	<key>Picture_preset</key>
+	<string>$(PICTURE_PRESET)</string>
+	<key>Server_URL</key>
+	<string>$(ROOT_URL)</string>
+	<key>Thumbnail_preset</key>
+	<string>$(THUMBNAIL_PRESET)</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>Zocial.ttf</string>
+		<string>Fontisto.ttf</string>
+		<string>Roboto_medium.ttf</string>
+		<string>Roboto.ttf</string>
+		<string>rubicon-icon-font.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>Upload_url</key>
+	<string>$(UPLOAD_URL)</string>
+	<key>Video_preset</key>
+	<string>$(VIDEO_PRESET)</string>
+	<key>XMPP_URL</key>
+	<string>$(XMPP_URL)</string>
+</dict>
+</plist>
